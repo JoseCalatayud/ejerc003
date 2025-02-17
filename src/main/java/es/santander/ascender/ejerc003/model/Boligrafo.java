@@ -25,6 +25,13 @@ public class Boligrafo {
         this.nombre = nombre;
         this.escribe = escribe;
     }
+    
+
+    public Boligrafo(int color, String nombre, boolean escribe) {
+        this.color = color;
+        this.nombre = nombre;
+        this.escribe = escribe;
+    }
 
     public Long getId() {
         return id;
