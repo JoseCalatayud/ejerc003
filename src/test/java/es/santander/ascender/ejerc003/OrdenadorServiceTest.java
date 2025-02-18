@@ -16,7 +16,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import es.santander.ascender.ejerc003.model.Ordenador;
 import es.santander.ascender.ejerc003.service.OrdenadorService;
 @SpringBootTest
-public class osTest {
+public class OrdenadorServiceTest {
     Ordenador o;
 
     @Autowired
